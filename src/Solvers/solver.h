@@ -1,7 +1,7 @@
 #ifndef HEATCONDUCTION_SOLVER_H_
 #define HEATCONDUCTION_SOLVER_H_
 #include <vector>
-#include "bar.h"
+#include "../Bar/bar.h"
 
 class Solver{
     public: 

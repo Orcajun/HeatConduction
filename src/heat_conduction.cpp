@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 
-#include "bar.h"
-#include "solver.h"
+#include "Bar/bar.h"
+#include "Solvers/solver.h"
 
 int main(){
     

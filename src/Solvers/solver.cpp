@@ -5,7 +5,7 @@
 #include <iostream>
 
 #include "solver.h"
-#include "bar.h"
+#include "../Bar/bar.h"
 
 
 Solver::Solver(Bar bar_to_solve): 
