@@ -9,12 +9,10 @@
 
 
 Solver::Solver(Bar bar_to_solve): 
-user_bar{bar_to_solve}, 
-DT{(9 * bar_to_solve.dx * bar_to_solve.dx)/(20 * bar_to_solve.alpha)},
-BAR_EMMISIVITY{(bar_to_solve.alpha * DT)/ (bar_to_solve.dx*bar_to_solve.dx)}
-{
-
-};
+    user_bar{bar_to_solve}, 
+    DT{(9 * bar_to_solve.dx * bar_to_solve.dx)/(20 * bar_to_solve.alpha)},
+    BAR_EMMISIVITY{(bar_to_solve.alpha * DT)/ (bar_to_solve.dx*bar_to_solve.dx)}
+{};
 
 std::vector<double> Solver::solveBar(){
     std::vector<double> current_temperature = user_bar.temperature;
